@@ -1,0 +1,226 @@
+{
+  "intents": {
+    "greeting": {
+      "examples": [
+        "hello", "hi there", "good morning", "hey", "hi", "greetings", "how are you", "what's up", "good evening", "nice to meet you", "hey chatbot", "hi bot", "hello cyberguard", "what's your name", "who are you", "yo", "sup", "howdy", "hello assistant", "good day", "greetings and salutations", "pleased to meet you", "how are things", "how's it going", "what's new"
+      ],
+      "response": "Hello! I'm CyberGuardian AI, your assistant for digital safety. How can I help you stay safe online today? Feel free to ask me anything about cybersecurity."
+    },
+    "goodbye": {
+      "examples": [
+        "bye", "goodbye", "see you later", "talk to you soon", "farewell", "thank you and bye", "gotta go", "see ya", "I'm leaving", "end chat", "bye for now", "later", "adieu", "catch you later", "peace out", "have a good one", "cheerio", "so long", "until next time"
+      ],
+      "response": "Goodbye! Stay safe online, and feel free to ask if you have more questions. Remember, I'm always here to help you protect your digital life."
+    },
+    "thanks": {
+      "examples": [
+        "thank you", "thanks a lot", "I appreciate it", "that's helpful", "cheers", "thank you so much", "much appreciated", "thanks for the info", "that was useful", "thanks for helping", "great, thanks", "you've been a great help", "I'm grateful", "thanks for the assistance", "perfect, thank you", "I owe you one"
+      ],
+      "response": "You're welcome! Always here to help with your digital safety. Is there anything else I can assist you with?"
+    },
+    "what_is_phishing": {
+      "examples": [
+        "what is phishing", "explain phishing", "how does phishing work", "phishing definition", "tell me about phishing scams", "what's a phishing attack", "what are phishing emails", "how to identify phishing", "what is spear phishing", "phishing attacks explained", "what's a smishing scam", "what's vishing", "how to avoid phishing", "tell me about fake websites for phishing", "phishing email examples", "how do I spot a fake email?", "what are the signs of a phishing attempt?", "can you give me an example of a phishing email?", "what is whaling?", "what is pharming?"
+      ],
+      "response": "Phishing is a deceptive cyberattack where criminals trick you into revealing sensitive information, like passwords or credit card numbers, by posing as trustworthy entities. This is most often done via fake emails, text messages (smishing), or phone calls (vishing) that direct you to malicious websites. Always check the sender's email address, look for typos, and be wary of urgent requests for personal data."
+    },
+    "how_to_create_strong_password": {
+      "examples": [
+        "how to make strong password", "tips for a good password", "create a secure password", "what is a strong password", "password best practices", "how to strengthen my password", "secure password tips", "best way to make a password", "password creation rules", "why are strong passwords important", "password security", "how long should my password be", "is using a phrase okay for a password", "what characters should I use in my password", "how to remember a strong password", "how can I generate a random password?", "what is a passphrase?", "should I use the same password everywhere?", "is it okay to write down my password?", "what is a password manager?"
+      ],
+      "response": "A strong password is long (12+ characters), unique for each account, and combines uppercase/lowercase letters, numbers, and symbols. A memorable passphrase is a great alternative to a complex password. Avoid using personal details, common words, or simple sequences. Using a reputable password manager is highly recommended to store and generate complex passwords securely."
+    },
+    "protect_against_malware": {
+      "examples": [
+        "how to avoid malware", "protect from viruses", "stop computer infection", "malware protection tips", "what is a computer virus", "how to prevent ransomware", "antivirus software advice", "computer security tips", "how to scan for a virus", "what is ransomware", "what is a Trojan horse", "how does a virus spread", "should I use antivirus software", "what is a worm", "what is spyware", "how to get rid of a virus", "what are the signs of malware?", "what's the difference between a virus and a worm?", "what's a rootkit?", "what is a keylogger?", "how do I keep my computer safe from viruses?"
+      ],
+      "response": "To guard against malware, use quality antivirus software and keep it updated. Also, keep all your operating systems and applications updated with the latest security patches. Be wary of suspicious links and email attachments, and only download from trusted sources. Regular data backups are also a smart move to protect your files from ransomware attacks."
+    },
+    "online_privacy_tips": {
+      "examples": [
+        "how to protect my online privacy", "tips for privacy online", "online data safety", "control my privacy settings", "what about online privacy", "how to keep my personal info safe online", "digital privacy best practices", "secure my personal data", "privacy on social media", "how to be private online", "what is my digital footprint", "how to delete my digital footprint", "how to opt out of data brokers", "what is incognito mode", "is incognito mode private", "should I use a VPN for privacy?", "how do I stop companies from tracking me?", "what are cookies?", "how do I clear my browser history?", "how do I control ad tracking?"
+      ],
+      "response": "To boost your online privacy, regularly review social media privacy settings, be cautious about what you share publicly, and use strong, unique passwords and 2FA on all your accounts. Consider using a VPN for secure Browse and use privacy-focused browsers or extensions. Remember, your digital footprint is permanent, so think before you share!"
+    },
+    "report_scam": {
+      "examples": [
+        "how to report an online scam", "where to report cyber crime", "I was scammed online", "report fraud website", "who to contact for cyber attack", "what to do if hacked", "cybercrime reporting", "where do I complain about online fraud", "file a complaint for online fraud", "report a phishing email", "where to report a fake website", "who do I tell about a data breach", "what to do if my identity is stolen", "how to report a fraudulent text message", "who handles online fraud?", "what is the FTC?", "how do I report a scammer?"
+      ],
+      "response": "If you've encountered a cybercrime or online scam, report it immediately to your local law enforcement and a national cybercrime reporting agency. In the United States, you can file a complaint with the FBI's Internet Crime Complaint Center (IC3). In India, use the National Cybercrime Reporting Portal at cybercrime.gov.in. You should also report the incident to your bank or credit card company if financial loss occurred."
+    },
+    "check_website_safety": {
+      "examples": [
+        "how to know if a website is safe", "is this website legit", "check website security", "safe Browse tips", "identify fake websites", "how to tell a website is secure", "how to verify a website's authenticity", "is this link safe", "can you check if this site is secure", "how to spot a fake website", "what does https mean", "what is an SSL certificate", "how to check for a padlock icon", "what is a secure connection?", "how do I check a website's reputation?", "what are the red flags of a fake website?", "is it safe to enter my credit card info here?", "what does the green padlock mean?"
+      ],
+      "response": "Always look for 'https://' and a padlock icon in the URL bar, which indicates a secure connection. Be skeptical of deals that are too good to be true, check for typos in the domain name, and research reviews of the site. You can also use a website reputation checker to get more information. Trust your instincts—if a website feels off, it's best to avoid it."
+    },
+    "two_factor_authentication": {
+      "examples": [
+        "what is 2fa", "explain two factor authentication", "how to use 2fa", "is two factor authentication important", "should I enable 2fa", "what is multi-factor authentication", "why use 2fa", "how to set up 2fa", "two step verification", "types of 2fa", "authenticator app vs sms 2fa", "what is mfa?", "why is 2fa better than just a password?", "how do I get an authenticator app?", "what is a physical security key?", "can my 2fa be hacked?"
+      ],
+      "response": "Two-Factor Authentication (2FA), or Multi-Factor Authentication (MFA), adds a crucial extra layer of security. It requires a second verification step beyond your password, like a code from an authenticator app, a text message, or a fingerprint scan. This means even if a hacker steals your password, they can't access your account without that second factor. Always enable it for important accounts like email, banking, and social media."
+    },
+    "social_engineering": {
+      "examples": [
+        "what is social engineering", "how does social engineering work", "social engineering attacks explained", "prevent social engineering", "common social engineering tactics", "types of social engineering scams", "how to spot social engineering", "what is pretexting", "what is baiting", "what is tailgating", "how to avoid social engineering", "what is quid pro quo?", "what is a waterhole attack?", "how do hackers trick people?", "what is shoulder surfing?"
+      ],
+      "response": "Social engineering is the art of manipulating people into revealing confidential information or performing actions that compromise security. Attackers exploit human psychology, like trust, fear, or a desire to be helpful. Common tactics include phishing, pretexting (creating a fake scenario), and baiting (offering something desirable). The best defense is to be skeptical of unsolicited requests and never share sensitive data with unverified sources."
+    },
+    "public_wifi_safety": {
+      "examples": [
+        "is public wifi safe", "dangers of public wifi", "how to use public wifi safely", "protect myself on public hotspots", "public network security", "public wi-fi risks", "secure my phone on public wifi", "should I log in to my bank on public wifi", "what is a man in the middle attack", "can someone spy on me on public wifi?", "what is a VPN for?", "what are the risks of using free wifi?", "how do I turn off auto-connect to wifi?"
+      ],
+      "response": "Public Wi-Fi is generally insecure because the network traffic is often unencrypted, making it easy for hackers to snoop on your data. Avoid accessing sensitive accounts (banking, email, online shopping) on public networks. If you must use it, enable a VPN (Virtual Private Network) to encrypt your connection and protect your data from 'man-in-the-middle' attacks."
+    },
+    "software_updates": {
+      "examples": [
+        "why are software updates important", "should I update my software", "benefits of software updates", "importance of patches", "keeping software updated", "what is a patch", "should I update my phone", "is it safe to update my pc", "what happens if I don't update my software?", "what is a zero-day exploit?", "how do I check for updates on my phone?", "should I enable automatic updates?"
+      ],
+      "response": "Software updates are vital for your security! They fix security vulnerabilities (bugs) that hackers can exploit, improve performance, and add new features. Ignoring updates leaves your devices and data exposed to potential threats. Always update your operating system, web browsers, and applications as soon as updates are available. Enabling automatic updates is the best way to stay protected."
+    },
+    "online_shopping_safety": {
+      "examples": [
+        "safe online shopping tips", "how to shop online securely", "is online shopping safe", "protect credit card online", "secure online transactions", "online payment safety", "secure my credit card for online purchases", "is it safe to save my card details online", "what to look for in an online store", "what is a one-time password (otp)?", "should I use a debit or credit card online?", "what's the difference between http and https?", "how do I know if an online store is reputable?"
+      ],
+      "response": "For safe online shopping, only use secure websites with 'https://' and a padlock icon in the URL. Use strong, unique passwords for your accounts and enable 2FA if available. Be cautious of unbelievable deals, check for seller reviews, and use a credit card for better fraud protection. Avoid saving your card details on sites unless they are well-known and you shop there frequently."
+    },
+    "recognize_fake_news": {
+      "examples": [
+        "how to identify fake news", "spot misinformation online", "avoid fake news", "how to check if news is real", "misinformation prevention", "fact-checking online", "is this article real", "how to verify a news source", "what is deepfake", "what is a bot?", "how do I check the facts of a story?", "what is media literacy?", "what are signs of a deepfake video?", "how do I spot a fake social media account?"
+      ],
+      "response": "To spot fake news, be a critical consumer of information. Check the source and author's credibility, look for sensational or misleading headlines, and verify facts with other reputable sources. Be wary of content with poor grammar or suspicious-looking URLs. Remember that images and videos can be manipulated, and be skeptical of emotionally charged content. Critical thinking and fact-checking are your best tools!"
+    },
+    "what_is_vpn": {
+      "examples": [
+        "what is a VPN", "explain VPN", "how does a VPN work", "VPN definition", "why use a VPN", "best VPN services", "is a VPN safe", "free vs paid VPN", "what is a kill switch on a VPN", "does a VPN make me anonymous?", "can my ISP see my activity if I use a VPN?", "how do I set up a VPN?", "what are the benefits of a VPN?"
+      ],
+      "response": "A VPN, or Virtual Private Network, encrypts your internet connection and masks your IP address, routing your traffic through a secure server. This helps to secure your data from hackers on public Wi-Fi, enhances your online privacy by hiding your location, and can allow you to bypass geo-restrictions. While free VPNs exist, paid services are generally more reliable and secure."
+    },
+    "online_harassment": {
+      "examples": [
+        "what to do about online harassment", "dealing with cyberbullying", "I am being harassed online", "how to report online abuse", "what is online harassment", "report cyberbullying", "what to do about doxxing", "how do I block someone online?", "what is doxxing?", "what is an online troll?", "how do I report a fake profile?", "who can help me with cyberbullying?"
+      ],
+      "response": "If you're experiencing online harassment or cyberbullying, do not engage with the harasser. Block them on all platforms, document everything with screenshots, and report the abuse to the platform's support team. If the harassment includes threats or doxxing (publishing private information), report it to law enforcement. There are also organizations dedicated to helping victims of online harassment."
+    },
+    "data_breach": {
+      "examples": [
+        "what is a data breach", "how to know if my data was breached", "what to do after a data breach", "I think my data was leaked", "data breach prevention", "what happens in a data breach", "I got an email about a data breach", "how do I know if my password was stolen?", "what is credit monitoring?", "should I change my password after a data breach?", "what personal data is at risk in a breach?"
+      ],
+      "response": "A data breach occurs when a hacker steals data from a company's systems, exposing sensitive information like names, email addresses, and passwords. To check if your data was breached, you can use websites like 'Have I Been Pwned?'. If you're affected, immediately change your password on the compromised account and any other accounts where you used the same password. Consider enabling 2FA and using a credit monitoring service."
+    },
+    "parental_controls": {
+      "examples": [
+        "how to set up parental controls", "online safety for children", "protecting kids online", "parental guidance for internet", "child safety on the internet", "internet safety for kids", "how to monitor my child's online activity", "what are parental controls for?", "how to talk to my kids about online safety?", "what are the risks for kids online?", "how do I set screen time limits?", "what is an age-appropriate online experience?"
+      ],
+      "response": "Parental controls can help filter content, limit screen time, and monitor your child's online activity. The most effective approach is a combination of technical controls, open communication with your children about online risks, and co-viewing. Teach them about privacy, cyberbullying, and what to do if they encounter something inappropriate. No single tool is a substitute for an ongoing conversation about digital citizenship."
+    },
+    "account_hacked": {
+      "examples": [
+        "my account was hacked", "what to do if my email is hacked", "my social media account is compromised", "I can't log into my account", "I think I was hacked", "how to recover a hacked account", "what are the signs of a hacked account?", "how do I secure my social media after a hack?", "what to do if my bank account is hacked?", "how to remove malware from my device?"
+      ],
+      "response": "If your account is hacked, first try to change your password immediately. If you can't access it, use the 'forgot password' or account recovery feature. Contact the platform's support team to report the unauthorized access. Check for any unauthorized activity and enable 2FA on all your accounts to prevent future attacks. If financial accounts are involved, contact your bank immediately."
+    },
+    "backup_data": {
+      "examples": [
+        "how to back up my data", "why should I back up my files", "data backup methods", "what is a data backup", "cloud backup vs local backup", "how to create a file backup", "how often should I back up my data?", "what is the 3-2-1 backup rule?", "is a hard drive a good way to back up?", "what is an incremental backup?"
+      ],
+      "response": "Regularly backing up your data is crucial for recovery from hardware failure, malware (especially ransomware), or theft. The best approach is the 3-2-1 rule: keep 3 copies of your data, on 2 different types of media, with 1 copy stored off-site. You can use external drives (local backup), cloud storage services, or a combination of both."
+    },
+    "recognize_spam": {
+      "examples": [
+        "how to spot a spam email", "what is spam", "how to block spam calls", "spam protection tips", "how to filter spam", "what to do if I get a spam call", "what is a spam filter?", "why do I get so much spam?", "should I open a spam email?", "is it safe to click on a link in a spam email?"
+      ],
+      "response": "Spam is unsolicited and often unwanted electronic messages, frequently used for phishing or spreading malware. To spot it, look for suspicious senders, generic greetings, poor grammar, and strange attachments or links. Use your email provider's spam filter, never reply to spam emails, and avoid clicking on any links or downloading attachments. For spam calls, block the number and do not engage with the caller."
+    },
+    "what_is_firewall": {
+      "examples": [
+        "what is a firewall", "how does a firewall work", "explain firewall", "firewall security", "is my computer's firewall on", "what's the difference between a software and hardware firewall?", "how do I check my firewall settings?", "what is a firewall's main purpose?"
+      ],
+      "response": "A firewall acts as a digital barrier between your computer or network and the internet. It monitors incoming and outgoing network traffic and decides whether to allow or block specific data packets based on a set of security rules. A firewall is essential for preventing unauthorized access and is typically built into your operating system and home router."
+    },
+    "secure_home_network": {
+      "examples": [
+        "how to secure my home wi-fi", "home network security tips", "protect my router", "secure my internet connection", "change my wifi password", "is my wifi safe", "how do I log in to my router?", "what is WPA2/WPA3?", "how do I change my router's default name?", "what is a guest network?"
+      ],
+      "response": "To secure your home network, change the default router password and the Wi-Fi name (SSID) immediately. Use strong Wi-Fi encryption (WPA2 or WPA3) and keep your router's firmware updated. Consider creating a separate guest network for visitors to keep your main network private. You can also turn on the firewall feature on your router for added security."
+    },
+    "browser_security": {
+      "examples": [
+        "how to secure my web browser", "browser safety tips", "browser security settings", "private Browse", "clear cookies and cache", "secure my browser", "what are browser extensions?", "are ad-blockers safe?", "what are cookies?", "what is incognito mode?"
+      ],
+      "response": "Keep your browser updated, as new versions often include important security fixes. Use reputable ad-blockers and privacy extensions to block trackers and malicious ads. Regularly clear your cache and cookies to remove tracking data. You can also adjust your browser's security and privacy settings to be more restrictive. Remember that 'private Browse' mode only prevents local tracking, not tracking by your ISP or the websites you visit."
+    },
+    "safe_downloads": {
+      "examples": [
+        "is it safe to download this file", "how to download safely", "what to look for before downloading", "safe download sources", "how to check a file for viruses before downloading", "can I get a virus from a PDF?", "what is a digital signature?", "what is a torrent?", "how can I verify a download source?"
+      ],
+      "response": "Before downloading, ensure the source is reputable and the file has a digital signature. Scan the file with your antivirus software before opening it. Be cautious of unofficial sites offering 'free' software, as these are often sources of malware. Never download and run an executable file (.exe) from a suspicious or unknown source."
+    },
+    "digital_signatures": {
+      "examples": [
+        "what is a digital signature", "how does a digital signature work", "digital certificate explained", "is this email digitally signed", "what is a public key infrastructure (PKI)?", "what is the difference between an electronic and a digital signature?"
+      ],
+      "response": "A digital signature is a mathematical scheme for verifying the authenticity and integrity of a message, software, or document. It uses encryption to ensure the content has not been tampered with since it was signed and verifies the sender's identity. This is a crucial component of security for many digital transactions and communications."
+    },
+    "identity_theft": {
+      "examples": [
+        "what is identity theft", "how to prevent identity theft", "I think I am a victim of identity theft", "signs of identity theft", "what is doxxing", "what is a credit freeze?", "how can I monitor my credit report?", "what is a social security number used for?", "what are the most common signs of identity theft?"
+      ],
+      "response": "Identity theft is when someone uses your personal information without your permission to commit fraud. To prevent it, use strong passwords and 2FA, be cautious about sharing personal data online, and monitor your bank statements and credit report regularly for unauthorized activity. If you think you're a victim, contact your bank, freeze your credit, and file a report with the authorities."
+    },
+    "social_media_privacy": {
+      "examples": [
+        "how to secure my social media accounts", "social media privacy settings", "is my social media data safe", "how to protect photos on social media", "how to stop companies from using my data on social media?", "how do I control who sees my posts?", "what are geotags?"
+      ],
+      "response": "To secure your social media, go through all your privacy settings and set them to 'private' or 'friends only'. Be mindful of what you post, including location data (geotags), and who you accept as a friend. Use strong, unique passwords and enable 2FA for each account. Regularly review which third-party apps have access to your profile data and revoke access for those you don't use."
+    },
+    "cryptojacking": {
+      "examples": [
+        "what is cryptojacking", "how to prevent cryptojacking", "signs of cryptojacking", "why is my computer running slow?", "what is cryptocurrency mining?", "what is a browser hijacker?"
+      ],
+      "response": "Cryptojacking is when a hacker secretly uses your computer's processing power to mine cryptocurrency without your permission. This can happen via malicious websites or by installing malware. Signs can include your computer running slow, overheating, or your fans running at full speed unexpectedly. To prevent it, use an ad-blocker, keep your antivirus software updated, and avoid suspicious websites."
+    },
+    "sim_swapping": {
+      "examples": [
+        "what is sim swapping", "how does sim swapping work", "how to prevent a sim swap attack", "I think I'm a victim of a sim swap", "what is porting a phone number?"
+      ],
+      "response": "SIM swapping is a type of fraud where an attacker convinces your mobile carrier to transfer your phone number to a new SIM card they control. This allows them to intercept your calls and text messages, including 2FA codes, to access your online accounts. To prevent this, call your mobile carrier to ask for a PIN or password on your account that must be used before any changes can be made. Avoid using SMS for 2FA where possible."
+    },
+    "ad_trackers": {
+      "examples": [
+        "what are ad trackers", "how to block online trackers", "how to stop targeted ads", "are trackers dangerous?", "what is a pixel?"
+      ],
+      "response": "Ad trackers are small bits of code that follow you across the internet, collecting data about your Browse habits, interests, and location. This data is used to build a profile of you for targeted advertising. To block them, use a browser with built-in tracking protection or install a reputable privacy-focused browser extension or ad-blocker."
+    },
+    "iot_security": {
+      "examples": [
+        "how to secure my smart home devices", "iot security tips", "is my smart speaker safe?", "what are the risks of IoT devices?", "how to change the default password on my smart device?"
+      ],
+      "response": "IoT (Internet of Things) devices like smart speakers and thermostats can be a security risk if not properly secured. The key steps are to change the default passwords, keep the firmware updated, and use a strong, secure Wi-Fi network. Consider placing these devices on a separate guest network to isolate them from your main devices and data."
+    },
+    "email_security": {
+      "examples": [
+        "how to secure my email", "email security best practices", "is my email safe?", "how to tell if an email is a scam?", "what is encryption?"
+      ],
+      "response": "To secure your email, use a strong, unique password and enable 2FA. Be careful of what you click and the attachments you open, as these are common vectors for phishing and malware. Be cautious about the personal information you share in emails. Consider using email encryption for highly sensitive communications."
+    },
+    "ransomware": {
+      "examples": [
+        "what is ransomware", "how to prevent ransomware", "I have a ransomware attack", "what is a ransomware attack?", "should I pay the ransom?"
+      ],
+      "response": "Ransomware is a type of malware that encrypts your files and holds them hostage until you pay a ransom. To prevent it, keep your software updated, use quality antivirus software, and, most importantly, regularly back up your data. If you are a victim, security experts advise against paying the ransom, as there's no guarantee you'll get your files back, and it encourages further attacks. Instead, restore your data from your backups."
+    },
+    "what_is_ddos": {
+      "examples": [
+        "what is a ddos attack", "explain ddos", "how does ddos work", "what is a botnet?"
+      ],
+      "response": "A DDoS (Distributed Denial of Service) attack is a malicious attempt to disrupt the normal traffic of a targeted server, service, or network by overwhelming it with a flood of internet traffic from multiple compromised computer systems. This makes the service unavailable to legitimate users. They are often carried out using networks of infected devices called botnets."
+    },
+    "physical_security": {
+      "examples": [
+        "physical security for my devices", "how to protect my laptop from theft", "what is shoulder surfing?", "how to lock my phone?"
+      ],
+      "response": "Physical security is a key part of cybersecurity. Always use a strong passcode or biometric lock on your phone and a strong password on your computer. Don't leave devices unattended in public places. Be aware of your surroundings to prevent 'shoulder surfing,' where someone looks over your shoulder to steal your passwords or PINs."
+    }
+  }
+}
