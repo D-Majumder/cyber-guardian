@@ -1,73 +1,41 @@
-<h1 align="center" id="title">Cyber Guardian</h1>
+# CyberGuardian
 
-<p align="center"><img src="https://socialify.git.ci/D-Majumder/CyberGuardian/image?font=Bitter&amp;forks=1&amp;issues=1&amp;language=1&amp;name=1&amp;owner=1&amp;pattern=Brick+Wall&amp;pulls=1&amp;stargazers=1&amp;theme=Auto" alt="project-image"></p>
+A speech-based chatbot assistant that provides guidance and awareness on digital threats and online safety.
 
-<p id="description">This repository contains the final project for an AI/ML internship. The project titled "CyberGuardian AI" is a speech-based chatbot assistant built to provide guidance and awareness on digital threats and online safety. The chatbot uses a custom-built knowledge base and a machine learning model to classify user intent and deliver relevant spoken responses.</p>
+## Overview
 
-<p align="center"><img src="https://img.shields.io/badge/Cyber-Guardian-blue" alt="shields"><img src="https://img.shields.io/badge/D-Majumder-red" alt="shields"><img src="https://img.shields.io/badge/Jupyter-Lab-orange" alt="shields"></p>
+This repository contains the final project for an AI/ML internship. CyberGuardian AI is a voice-interactive chatbot built to answer questions about digital safety — phishing, malware, passwords, and online privacy — using a custom knowledge base and a machine learning intent classifier.
 
-  
-  
-<h2>🧐 Features</h2>
+## Features
 
-Here're some of the project's best features:
+- **Voice-enabled interaction** — listens for user queries through the microphone and responds with synthesized speech.
+- **AI-powered intent classification** — uses a Logistic Regression model to understand the user's intent from natural language.
+- **Custom knowledge base** — responses are fetched from a custom-built JSON dataset (`dataset.json`) focused on digital safety and cyber awareness.
+- **Broad query handling** — designed to handle a range of queries related to phishing, malware, passwords, online privacy, and more.
 
-*   Voice-Enabled Interaction: The chatbot listens for user queries through the microphone and responds with synthesized speech.
-*   AI-Powered Intent Classification: Utilizes a Logistic Regression model to understand the user's intent from their natural language query.
-*   Custom Knowledge Base: All responses are fetched from a comprehensive custom-made .json dataset focused on digital safety and cyber awareness.
-*   Dynamic and Interactive: The chatbot is designed to handle a wide range of queries related to phishing malware passwords online privacy and more.
+## Tech stack
 
-<h2>🛠️ Installation Steps:</h2>
+- Python
+- Jupyter Notebook (`chatbot.ipynb`)
+- scikit-learn (`TfidfVectorizer`, `LogisticRegression`)
+- `speech_recognition` — transcribes voice input to text
+- `pyttsx3` — converts text responses back to speech
+- `json` — knowledge base storage
 
-<p>1. Clone the Repository</p>
+## Setup
 
-```
+```bash
 git clone https://github.com/D-Majumder/CyberGuardian
-```
-
-```
 cd CyberGuardian
-```
-
-<p>3. Install Dependencies</p>
-
-```
-pip install speechrecognition pyttsx3 scikit-learn numpy pandas
-```
-
-```
-pip install pyaudio
-```
-
-<p>5. Run the Jupyter Notebook</p>
-
-```
+pip install speechrecognition pyttsx3 scikit-learn numpy pandas pyaudio
 jupyter notebook
 ```
 
-<p>6. Execute the Cells</p>
+Open `chatbot.ipynb` and execute the cells in order:
+1. Loads the data and prepares training sentences.
+2. Trains the Logistic Regression model.
+3. Runs the main conversational loop, which starts the speech-based dialogue.
 
-```
-The first cell loads the data and prepares the training sentences.
-```
+## License
 
-```
-The second cell trains the LogisticRegression model.
-```
-
-```
-The third cell contains the main conversational loop which will initiate the speech-based dialogue.
-```
-
-  
-  
-<h2>💻 Built with</h2>
-
-Technologies used in the project:
-
-*   Python: The core programming language.
-*   Jupyter Notebook: Used for developing and demonstrating the chatbot's functionality.
-*   scikit-learn: For the TfidfVectorizer and LogisticRegression model implementation.
-*   speech\_recognition: To transcribe the user's voice input into text.
-*   pyttsx3: To convert the chatbot's text responses back into speech.
-*   json: For managing the chatbot's knowledge base.
+No license file is currently present in this repository. Without one, all rights to the code are reserved by the author by default.
