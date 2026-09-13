@@ -25,8 +25,8 @@ This repository contains the final project for an AI/ML internship. CyberGuardia
 ## Setup
 
 ```bash
-git clone https://github.com/D-Majumder/CyberGuardian
-cd CyberGuardian
+git clone https://github.com/D-Majumder/cyber-guardian
+cd cyber-guardian
 pip install speechrecognition pyttsx3 scikit-learn numpy pandas pyaudio
 jupyter notebook
 ```
